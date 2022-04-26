@@ -167,7 +167,7 @@
 .main__advantages{
     
     width: 100%;
-    min-height: 832px;
+    mix-height: 832px;
     background: #FFF0CB;
 }
 
@@ -327,7 +327,7 @@
 .footer__content{
     display: flex;
     align-items: center;
-    padding-top: 75px;
+    padding: 75px 0px;
     justify-content: space-between;
     
 
