@@ -6,7 +6,7 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides(slideIndex -= n);
 }
 
 function showSlides(n) {
@@ -26,5 +26,4 @@ function showSlides(n) {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "none";
-  setTimeout(showSlides, 2000);
 }
