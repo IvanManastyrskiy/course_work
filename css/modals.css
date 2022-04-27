@@ -1,20 +1,96 @@
-.popup__bg{
+.signup__bg{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(0, 0, 0, 0.6);
     opacity: 0;
     pointer-events: none;
+   
 }
-.popup__modal{
+.signup__modal{
     position: absolute;
-    left: 0;
-    top: 0;
-    background: #1e1e1e;
-    width: 250px;
-    height: 100vh;
-    padding: 10px 25px;
+    left: 50%;
+    top: 50%;
+    width: 640px;
+    height: 600px;
     transition: 1s all;
+    margin-left: -320px;
+    margin-top: -300px;
+    background: #FFF6E1;
+    border: 10px solid rgba(255, 225, 151, 0.4);
+    box-sizing: border-box;
+    border-radius: 40px;        
+    
+}
+
+.signup__navigation-close{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    cursor: pointer;
+
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 500px;
+    margin: auto;
+    
+
+}
+
+.main__title{
+    text-align: center;
+    padding:70px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: #2E0062;
+
+
+}
+
+.input__signup{
+    width: 400px;
+    height: 60px;
+    background: #FFFFFF;    
+    border: 2px solid #FFE197;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    padding: 0px 35px;
+    
+
+}
+.input__signup::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;  
+    color: #2E0062;
+    
+}
+
+.btn__form-signup{
+    display: block;
+    margin:auto;
+    margin-top: 48px;
+    width: 400px;
+    height: 60px;
+    background: #2E0062;
+    box-shadow: 0px 4px 0px #230C3D;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer
 }
