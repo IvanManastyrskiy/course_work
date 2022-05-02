@@ -1,4 +1,4 @@
-.registration__bg{
+.task__bg{
     position: fixed;
     left: 0;
     top: 0;
@@ -9,7 +9,7 @@
     pointer-events: none;
    
 }
-.registration__modal{
+.task__modal{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -25,7 +25,7 @@
     
 }
 
-.registration__navigation-close{
+.task__navigation-close{
     position: absolute;
     right: 32px;
     top: 32px;
@@ -33,17 +33,14 @@
 
 }
 
-.registration-control {
+.task-control {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
     width: 500px;
     margin: auto;
-    
-
 }
 
-.registration__title{
+.task__title{
     text-align: center;
     padding:60px;
     font-style: normal;
@@ -55,7 +52,7 @@
 
 }
 
-.registration__signup{
+.task-control__input{
     width: 400px;
     height: 60px;
     background: #FFFFFF;    
@@ -64,10 +61,11 @@
     border-radius: 50px;
     margin: auto;
     padding: 0px 35px;
+    margin-top: 20px;
     
 
 }
-.registration__signup::placeholder{
+.task-control__input::placeholder{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -76,7 +74,7 @@
     
 }
 
-.btn__registration-signup{
+.btn__task-signup{
     display: block;
     margin:auto;
     margin-top: 48px;
@@ -94,15 +92,5 @@
     border: none;
     cursor: pointer
 }
-.lessons{
-    margin: auto;
-    width: 400px;
-    height: 60px;
-    background: #FFFFFF;
-    border: 2px solid #FFE197;
-    box-sizing: border-box;
-    border-radius: 50px;
-}
-.lessons__sections{
-    padding: 70px 30px;
-}
+
+

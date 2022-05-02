@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/question.css">
     <link rel="stylesheet" href="/css/answer.css">
     <link rel="stylesheet" href="/css/registration.css">
+    <link rel="stylesheet" href="/css/task.css">
     <title>Document</title>
 </head>
 
@@ -210,12 +211,12 @@
     <div class="mistake">
         <div class="mistake__modal">
             <img src="img/Close1.svg" alt="закрыть" class="mistake__navigation-close">
-                <div class="mistake__title">Ошибочка</div>
-                <form id="form" action="/" class="form__mistake">
+                
                     <div class="mistake__block">
-                        <a href="#" class="mistake__text">Проверьте правильность написания пароля или логина</a>
+                        <h2 class="mistake-block__title">Ошибочка</h2>
+                        <p class="mistake-block__text">Проверьте правильность написания пароля или логина</p>
                     </div>
-                </form>
+                
             </div>
         </div>
     </div>
@@ -250,9 +251,12 @@
                     <form id="form" action="/" class="form__registration">
                         <div class="registration__block">
                             <div class="registration-control">
-                                
-                                <input id="username" name="new-username" type="text" class="registration__signup" autocomplete="off" value="" placeholder="">
-                                <div class="registration"></div>
+                                <select name="tren" id="lessons" class="lessons">
+                                    <option value="" disabled="Выбрать секцию" class="lessons__sections"></option>
+                                    <option value="Настольный теннис" class="lessons__sections">Настольный теннис</option>
+                                    <option value="Волейбол" class="lessons__sections">Волейбол</option>
+                                    <option value="Футбол" class="lessons__sections">Футбол</option>
+                                </select>
                             </div>
                             <div class="registration-control">
                                 
@@ -265,6 +269,29 @@
                     </form>
                 </div>
             </div>
+            <div class="task__bg">
+                <div class="task__modal">
+                    <img src="img/Close1.svg" alt="закрыть" class="task__navigation-close">
+                    <div class="task__title">Вопрос</div>
+                    <form id="form" action="/" class="form__ task">
+                        <div class="task__block">
+                            <div class="task-control">
+
+                            </div>
+                            <div class="task-control">
+                                <input id="password" name="password" type="text" class="task-control__input"  value="" placeholder="Ф.И.О">
+                                <input id="password" name="password" type="text" class="task-control__input"  value="" placeholder="+7 (___)___-__-__">
+                        
+                                    <textarea id="password" name="password" class="task-control__input"  value="" placeholder="" cols="30" rows="10"></textarea>
+                                <div class=" task"></div>
+                            </div>
+                            <button type="submit" class="btn__task-signup">Записатся</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           
+
 <script src="/js/script.js"></script>
 </body>
 

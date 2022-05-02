@@ -9,7 +9,7 @@
     pointer-events: none;
    
 }
-.qanswer__modal{
+.answer__modal{
     position: absolute;
     left: 50%;
     top: 50%;

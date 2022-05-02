@@ -167,7 +167,7 @@
 .main__advantages{
     
     width: 100%;
-    mix-height: 832px;
+    max-height: 832px;
     background: #FFF0CB;
 }
 
@@ -347,7 +347,7 @@
 
 }
 
-/* СЛАЙДЕР */
+
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -501,10 +501,6 @@ img {vertical-align: middle;}
     }
     .footer__content-contacts{
         padding: 10px 0px;
-    }
-    .info__btn{
-        /*width: 180px;*/
-        
     }
 }
 
