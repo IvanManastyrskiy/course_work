@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/modals.css">
     <link rel="stylesheet" href="/css/mistake.css">
+    <link rel="stylesheet" href="/css/question.css">
+    <link rel="stylesheet" href="/css/answer.css">
+    <link rel="stylesheet" href="/css/registration.css">
     <title>Document</title>
 </head>
 
@@ -216,6 +219,52 @@
             </div>
         </div>
     </div>
+        <div class="answer">
+            <div class="answer__modal">
+                <img src="img/Close1.svg" alt="закрыть" class="answer__navigation-close">
+                    <div class="answer__title">Уже решаем ваш вопрос</div>
+                    <form id="form" action="/" class="form__answer">
+                        <div class="answer__block">
+                            <p class="answer__text">Обычно в рабочее время отвечаем за час</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+            <div class="question">
+                <div class="question__modal">
+                    <img src="img/Close1.svg" alt="закрыть" class="question__navigation-close">
+                        <div class="question__title">Лучшее решение за сегодня!</div>
+                        <form id="form" action="/" class="form__question">
+                            <div class="question__block">
+                                <p class="question__text">Заявка уже улетела нам на почту, скоро позвоним</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="registration__bg">
+                <div class="registration__modal">
+                    <img src="img/Close1.svg" alt="закрыть" class="registration__navigation-close">
+                    <div class="registration__title">Запись на занятие</div>
+                    <form id="form" action="/" class="form__registration">
+                        <div class="registration__block">
+                            <div class="registration-control">
+                                
+                                <input id="username" name="new-username" type="text" class="registration__signup" autocomplete="off" value="" placeholder="">
+                                <div class="registration"></div>
+                            </div>
+                            <div class="registration-control">
+                                
+                                <input id="password" name="password" type="month" class="input__signup"  value="" placeholder="Пароль">
+                                <div class="registration"></div>
+                            </div>
+                            <button type="submit" class="btn__registration-signup">Записатся</button>
+                            <button type="submit" class="btn__registration-signup">Регистрация</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 <script src="/js/script.js"></script>
 </body>
 

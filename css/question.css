@@ -1,4 +1,4 @@
-.mistake{
+.question{
     position: fixed;
     left: 0;
     top: 0;
@@ -9,7 +9,7 @@
     pointer-events: none;
    
 }
-.mistake__modal{
+.question__modal{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -25,7 +25,7 @@
     
 }
 
-.mistake__navigation-close{
+.question__navigation-close{
     position: absolute;
     right: 32px;
     top: 32px;
@@ -33,9 +33,9 @@
 
 }
 
-.mistake__title{
+.question__title{
     text-align: center;
-    padding:70px 0px;
+    padding: 70px;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -43,15 +43,15 @@
     color: #2E0062;
     
 }
-.mistake__text{
+.question__text{
     font-weight: 400;
     font-size: 32px;
     line-height: 120%;
     text-align: center;
-    color: #ff0000;
+    color: #2E0062;
     text-decoration: none;
 }
-.form__mistake{
+.form__question{
     text-align: center;
     padding: 120px 114px;
     
