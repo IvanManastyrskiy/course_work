@@ -10,8 +10,9 @@
 
 .header {
     width: 100%;
-    background-color: #2E0062;
-    box-shadow: 0px 4px 0px #230C3D;
+    background-color: #005B56;
+    box-shadow: 0px 4px 0px #003f3c;
+    
 }
 
 .container {
@@ -99,8 +100,8 @@
 .main__content{
     width: 100%;
     height: 800px;
-    background: url('/img/fon.jpg') no-repeat;
-    background-size: cover;
+    background: url('/img/14.jpg') no-repeat;
+    background-size: 72%;
     position: relative;
 }
 
@@ -143,8 +144,8 @@
     height: 60px;
     left: calc(50% - 382px/2 - 365px);
     top: calc(50% - 60px/2 + 78px);
-    background: #2E0062;
-    box-shadow: 0px 4px 0px #230C3D;
+    background: #005B56;
+    box-shadow: 0px 4px 0px #003f3c;
     border-radius: 50px;
     margin-top: 46px;
 
@@ -181,7 +182,7 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
-    color: #2E0062;
+    color: #005B56;
 }
 
 .advantages__content-blocks{
@@ -208,7 +209,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    color: #2E0062;
+    color: #005B56;
 
 
 }
@@ -216,7 +217,7 @@
 .main__two-age-groups{
     width: 100%;
     height: 1040px;
-    background: #6D3EA2;
+    background: #005B56;
 }
 
 .two-age-groups__content-text{
@@ -237,7 +238,7 @@
 }
 
 .two-age-groups__content-block__left{
-    background: #2E0062;
+    background: #00423f;
     border-radius: 20px;
     width:632px;
     height: 296px;
@@ -247,7 +248,7 @@
 }
 
 .two-age-groups__content-block__right{
-    background: #2E0062;
+    background: #00423f;
     border-radius: 20px;
     width:632px;
     height: 296px;
